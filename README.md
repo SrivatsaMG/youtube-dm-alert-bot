@@ -23,11 +23,13 @@ It uses **YouTube RSS feeds (no API key required)**, supports **role-based subsc
 ## 📁 Project Structure
 
 youtube-dm-alert-bot/
-├── index.js
-├── package.json
-├── .env
-├── last_video.json # auto-created
-└── stopped_users.json # auto-created
+youtube-dm-alert-bot/
+├── index.js        ✅ main bot code
+├── package.json    ✅ dependencies & scripts
+├── README.md       ✅ documentation
+├── .env            ✅ environment variables (DO NOT COMMIT)
+└── .gitignore      ✅ ignore secrets
+
 
 yaml
 Copy code
